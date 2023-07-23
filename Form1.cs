@@ -4175,7 +4175,7 @@ namespace Hotmail_Change_V1._0
                 }
             }
             catch { }
-            var encryptedData = AppService.rsaForServer.Encrypt(Encoding.UTF8.GetBytes(labelkeyok.Text), false);
+            var encryptedData = AppService.rsaForServer.Encrypt(Encoding.UTF8.GetBytes("KeyVinhVienNhieuMayPhuHieu"), false);
             string requesData = Convert.ToBase64String(encryptedData);
             RestClient restClient = new RestClient("http://quanlytoolndl.vip/keyfb.php");
             RestRequest restRequest = new RestRequest(Method.POST);
@@ -4190,8 +4190,6 @@ namespace Hotmail_Change_V1._0
                 MessageBox.Show("Key đã hết hạn hoặc chưa đăng ký, liên hệ admin để kích hoạt key, ", "Thông báo", MessageBoxButtons.OKCancel);
                 Form2 form2 = new Form2(labelkeyok.Text);
                 form2.ShowDialog();
-
-
 
                 //      MessageBox.Show("Key Hết hạn Hoặc chưa được gia hạn", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
