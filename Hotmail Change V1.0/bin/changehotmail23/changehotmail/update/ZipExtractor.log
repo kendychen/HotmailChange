@@ -1,0 +1,17 @@
+Tuesday, July 19, 2022 12:05:29 AM
+
+ZipExtractor started with following command line arguments.
+[0] d:\hotmail change new v1.0 21.04.2022\hotmail change v1.0\hotmail change v1.0\bin\changehotmail\update\zipextractor.exe
+[1] --input
+[2] update\toolhotmail.zip
+[3] --output
+[4] d:\hotmail change new v1.0 21.04.2022\hotmail change v1.0\hotmail change v1.0\bin\changehotmail
+[5] --executable
+[6] d:\hotmail change new v1.0 21.04.2022\hotmail change v1.0\hotmail change v1.0\bin\changehotmail\hotmail change.exe
+
+BackgroundWorker started successfully.
+Found total of 1 files and folders inside the zip file.
+Extracting Hotmail Change.exe [100%]
+Successfully launched the updated application.
+
+
